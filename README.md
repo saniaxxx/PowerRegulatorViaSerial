@@ -1,0 +1,1 @@
+Used to control an external voltage regulator via the serial port
