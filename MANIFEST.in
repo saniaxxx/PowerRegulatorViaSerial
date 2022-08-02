@@ -1,1 +1,2 @@
-include SerialPortPowerRegulator/config.yaml
+include cbpi4_SerialPortPowerRegulator/config.yaml
+recursive-include cbpi4_SerialPortPowerRegulator/static *

@@ -88,3 +88,4 @@ class SerialPortPowerRegulator(CBPiActor):
 
 def setup(cbpi):
     cbpi.plugin.register("SerialPortPowerRegulator", SerialPortPowerRegulator)
+

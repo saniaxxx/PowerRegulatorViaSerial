@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='SerialPortPowerRegulator',
+setup(name='cbpi4_SerialPortPowerRegulator',
       version='0.0.1',
       description='CraftBeerPi Plugin',
       author='',
@@ -10,9 +10,6 @@ setup(name='SerialPortPowerRegulator',
       package_data={
         # If any package contains *.txt or *.rst files, include them:
       '': ['*.txt', '*.rst', '*.yaml'],
-      'SerialPortPowerRegulator': ['*','*.txt', '*.rst', '*.yaml']},
-      packages=['SerialPortPowerRegulator'],
-      install_requires=[
-            'pyserial>=3.5',
-      ],
+      'cbpi4_SerialPortPowerRegulator': ['*','*.txt', '*.rst', '*.yaml']},
+      packages=['cbpi4_SerialPortPowerRegulator'],
      )
